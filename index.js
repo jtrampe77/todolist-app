@@ -1,7 +1,6 @@
 const taskInput = document.getElementById('task');
 const addTaskButton = document.getElementById('addTask');
 const taskList = document.getElementById('taskList');
-const deleteTaskButton = document.getElementById('delete');
 
 addTaskButton.addEventListener('click', addTask);
 taskList.addEventListener('click', deleteTask);
