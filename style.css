@@ -1,0 +1,65 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(210, 242, 255);
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.container{
+    max-width: 70%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    /* border: 1px solid black; */
+    text-align: left;
+    margin-top: 2rem;
+    padding: 3rem;
+    width: 60%;
+    border-radius: 5px;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(32, 32, 32, 0.5);
+}
+
+
+li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    border-bottom: 0.5px solid lightgrey;
+    padding: 2rem 0;
+}
+
+.input-container{
+    display: flex;
+    gap: 2rem;
+}
+
+input{
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#addTask{
+    width: 100px;
+    background-color: rgb(145, 37, 145);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#addTask:hover{
+    background-color: rgb(110, 4, 110);
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
